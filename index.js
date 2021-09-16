@@ -1,10 +1,10 @@
 var readlineSync= require('readline-sync');
 
-var userName = readlineSync.question('Are you older than 25 ?');
+var userCity = readlineSync.question(' if your hometown is Una ?');
 
 var score=0;
-
-if(userName.toUpperCase() === 'YES')
+console.log('You have entered '+ userCity)
+if(userCity.toUpperCase() === 'YES')
 {
   score++;
   console.log('You are right !! and your score is '+ score );
